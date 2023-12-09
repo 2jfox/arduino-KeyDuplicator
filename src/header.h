@@ -31,7 +31,7 @@ bool readflag = false;                    // флаг сигнализирует
 bool writeflag = false;                   // режим запись/чтение
 bool preBtnPinSt = HIGH;
 enum emRWType {rwUnknown, TM01, RW1990_1, RW1990_2, TM2004, T5557, EM4305};   // тип болванки
-enum emkeyType {keyUnknown, keyDallas, keyTM2004, keyCyfral, keyMetacom, keyEM_Marine};    // тип оригинального ключа  
+enum emkeyType {keyUnknown, keyDS1990A, keyTM2004, keyCyfral, keyMetacom, keyEM_Marine};    // тип оригинального ключа  
 emkeyType keyType; //original key data type
 char printBuffer[128];
 
